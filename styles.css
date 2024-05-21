@@ -54,6 +54,37 @@ nav {
   font-size: 40px;
   text-align: left;
 }
+.hero-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  /* border: solid 2px black;
+  background-color: blue; */
+}
+.hero-image {
+  position: relative;
+  width: 110%;
+  top: 0;
+}
+.hero-text {
+  position: relative;
+  width: 90%;
+  top: -15px;
+}
+.hero-text div {
+  background-color: #002c5f;
+  color: white;
+  height: 40px;
+  width: 80%;
+  line-height: 40px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
 @media (min-width: 1000px) {
   .burger {
     display: none;
