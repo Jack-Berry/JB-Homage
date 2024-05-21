@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <div>Hyundai logo</div>
+      <div class="header-logo"><img src="header-logo.png" alt="Hyundai" /></div>
       <nav>
         <ul class="menu-ul">
           <li>New Cars</li>
@@ -19,7 +20,18 @@
           <li>Hyundai Brand</li>
         </ul>
       </nav>
-      <div>Burger</div>
+      <div class="burger" tabindex="0">
+        <img src="burger.png" alt="menu burger" />
+        <ul class="menu-ul">
+          <li>New Cars</li>
+          <li>Offers</li>
+          <li>Used Cars</li>
+          <li>Owners</li>
+          <li>Business</li>
+          <li>Electric Cars</li>
+          <li>Hyundai Brand</li>
+        </ul>
+      </div>
     </header>
     <main>
       <!-- /BIG MAIN FEATURE SLIDER (4 page, img+h2+h3+div on each)
@@ -27,18 +39,25 @@
 
             / -->
       <div class="hero-carousel">
-        Feature Carousel
-        <div>
-          <img src="" alt="" />
-          <div>
+        <div class="hero-container">
+          <img
+            class="hero-image"
+            src="assets/tucson-carousel.avif"
+            alt="tucson in city"
+          />
+          <div class="hero-text">
             <h2>New TUCSON Hybrid</h2>
             <h3>It's all good.</h3>
             <div>Find out more</div>
           </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <div>
+        <div class="hero-container">
+          <img
+            class="hero-image"
+            src="assets/electric-carousel.avif"
+            alt="Electric cars"
+          />
+          <div class="hero-text">
             <h2>Explore Electric Event.</h2>
             <h3>
               Explore the range and find out key facts about owning an EV. Now
@@ -47,17 +66,25 @@
             <div>Discover more</div>
           </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <div>
+        <div class="hero-container">
+          <img
+            class="hero-image"
+            src="assets/ioniq-carousel.avif"
+            alt="a picture of the ioniq 5"
+          />
+          <div class="hero-text">
             <h2>IONIQ 5 N.</h2>
             <h3>Topgear.com Car of the Year. Now available to order.</h3>
             <div>Find out more</div>
           </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <div>
+        <div class="hero-container">
+          <img
+            class="hero-image"
+            src="assets/bayon-carousel.avif"
+            alt="a picture of the bayon"
+          />
+          <div class="hero-text">
             <h2>BAYON.</h2>
             <h3>
               3.9% APR Representative and up to £1,500 towards your deposit*
