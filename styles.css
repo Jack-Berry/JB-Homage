@@ -162,6 +162,57 @@ nav {
   /* height: 50%; */
   width: 90%;
 }
+.view-all {
+  width: 80%;
+  height: 150px;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+.view-all div {
+  position: absolute;
+  bottom: 0;
+  background-color: #002c5f;
+  color: white;
+  width: 100%;
+  /* height: 60px; */
+  /* line-height: 60px; */
+  text-align: center;
+  padding: 20px;
+}
+.view-overlay {
+  /* z-index: 4; */
+
+  transform: translateX(-110%);
+  transition: all 1s ease-in-out;
+}
+.view-all div:hover ~ .view-overlay {
+  transform: translateX(0);
+  background-color: #144277;
+}
+.wrapper-awkward {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container.awkward {
+  margin-top: 50px;
+  position: relative;
+  align-items: flex-start;
+  width: 80%;
+  /* height: 500px; */
+}
+.container.awkward div {
+  bottom: 0;
+  background-color: #002c5f;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
 
 @media (min-width: 1000px) {
   .burger {
