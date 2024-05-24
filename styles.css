@@ -1,9 +1,14 @@
+/* 
+Need to steal actual fonts */
 @font-face {
   font-family: "hyundai";
   src: url(Young.woff);
 }
 body {
   font-family: hyundai, sans-serif;
+}
+h1 {
+  text-align: center;
 }
 header {
   position: relative;
@@ -15,11 +20,13 @@ header {
 }
 
 .header-logo {
-  margin-left: 60px;
+  position: absolute;
+  left: 45px;
+  top: 15px;
 }
 .header-logo img {
-  width: 337px;
-  height: 70px;
+  width: 125px;
+  height: 25px;
 }
 nav {
   width: 100%;
@@ -31,13 +38,14 @@ nav {
 }
 .burger {
   position: absolute;
-  right: 35px;
+  right: 20px;
+  top: 10px;
   /* margin-right: 35px; */
 }
 .burger img {
   /* position: absolute; */
-  height: 80px;
-  width: 95px;
+  height: 40px;
+  width: 55px;
 }
 .burger:hover > ul,
 .burger:focus-within > ul {
@@ -55,35 +63,155 @@ nav {
   text-align: left;
   z-index: 5;
 }
-.hero-container {
+
+.carousel {
   position: relative;
+  /* background-color: aquamarine; */
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.wrapper.hero {
+  height: 600px;
+}
+.container {
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-
-  /* border: solid 2px black;
-  background-color: blue; */
+  overflow-x: hidden;
+  /* background-color: blue; */
 }
 .hero-image {
-  position: relative;
   width: 110%;
   top: 0;
 }
 .hero-text {
-  position: relative;
   width: 90%;
   top: -15px;
+  /* background-color: bisque; */
 }
 .hero-text div {
   background-color: #002c5f;
   color: white;
   height: 40px;
-  width: 80%;
+  width: 90%;
   line-height: 40px;
   text-align: center;
   padding: 10px;
   margin-top: 30px;
+}
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.slider-nav a {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  border: solid 1px black;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+  opacity: 100%;
+  background-color: rgb(86, 163, 201);
+}
+
+.discover.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 50px;
+}
+.wrapper.discover {
+  height: 80%;
+}
+.discover.carousel h1 {
+  width: 67%;
+  align-self: center;
+}
+.discover.container {
+  height: 80%;
+}
+.discover-img {
+  width: 85%;
+}
+.new.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+.new.container {
+  min-height: 500px;
+}
+.new img {
+  /* height: 50%; */
+  width: 90%;
+}
+.view-all {
+  width: 80%;
+  height: 150px;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+.view-all div {
+  position: absolute;
+  bottom: 0;
+  background-color: #002c5f;
+  color: white;
+  width: 100%;
+  /* height: 60px; */
+  /* line-height: 60px; */
+  text-align: center;
+  padding: 20px;
+}
+.view-overlay {
+  /* z-index: 4; */
+
+  transform: translateX(-110%);
+  transition: all 1s ease-in-out;
+}
+.view-all div:hover ~ .view-overlay {
+  transform: translateX(0);
+  background-color: #144277;
+}
+.wrapper-awkward {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container.awkward {
+  margin-top: 50px;
+  position: relative;
+  align-items: flex-start;
+  width: 80%;
+  /* height: 500px; */
+}
+.container.awkward div {
+  bottom: 0;
+  background-color: #002c5f;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
 }
 
 @media (min-width: 1000px) {
@@ -99,5 +227,22 @@ nav {
   }
   .menu-ul li {
     width: 60px;
+  }
+  .hero-text {
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 50px;
+  }
+  .hero-container {
+    display: block;
+  }
+  .hero-text div {
+    width: 30%;
+  }
+  .hero-image {
+    position: relative;
+    height: 100%;
+    width: unset;
   }
 }
