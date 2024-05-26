@@ -1,0 +1,204 @@
+<svg id="chaticonanimation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52 52" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="52" height="52">
+    <style>
+        #chaticonanimation-grey_circle {
+            animation: chaticonanimation-grey_circle_c_o 10000ms linear infinite normal forwards
+        }
+
+        @keyframes chaticonanimation-grey_circle_c_o {
+            0% {
+                opacity: 0
+            }
+            50% {
+                opacity: 0
+            }
+            54% {
+                opacity: 1
+            }
+            95% {
+                opacity: 1
+            }
+            100% {
+                opacity: 0
+            }
+        }
+
+        #chaticonanimation-speech-bubble_ts {
+            animation: chaticonanimation-speech-bubble_ts__ts 10000ms linear infinite normal forwards
+        }
+
+        @keyframes chaticonanimation-speech-bubble_ts__ts {
+            0% {
+                transform: translate(26.025001px, 42.099999px) scale(0.498936, 0.498936)
+            }
+            54% {
+                transform: translate(26.025001px, 42.099999px) scale(0.498936, 0.498936)
+            }
+            57% {
+                transform: translate(26.025001px, 42.099999px) scale(1.069816, 1.069816)
+            }
+            58% {
+                transform: translate(26.025001px, 42.099999px) scale(1, 1)
+            }
+            93% {
+                transform: translate(26.025001px, 42.099999px) scale(1, 1)
+            }
+            96% {
+                transform: translate(26.025001px, 42.099999px) scale(0.498019, 0.498019)
+            }
+            100% {
+                transform: translate(26.025001px, 42.099999px) scale(0.498019, 0.498019)
+            }
+        }
+
+        #chaticonanimation-speech-bubble {
+            animation: chaticonanimation-speech-bubble_c_o 10000ms linear infinite normal forwards
+        }
+
+        @keyframes chaticonanimation-speech-bubble_c_o {
+            0% {
+                opacity: 0
+            }
+            21% {
+                opacity: 0
+            }
+            54% {
+                opacity: 0
+            }
+            57% {
+                opacity: 1
+            }
+            93% {
+                opacity: 1
+            }
+            96% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0
+            }
+        }
+
+        #chaticonanimation-dot-left {
+            animation: chaticonanimation-dot-left_c_o 10000ms linear infinite normal forwards
+        }
+
+        @keyframes chaticonanimation-dot-left_c_o {
+            0% {
+                opacity: 0
+            }
+            59% {
+                opacity: 0
+            }
+            60% {
+                opacity: 1
+            }
+            90% {
+                opacity: 1
+            }
+            91% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0
+            }
+        }
+
+        #chaticonanimation-dot-middle {
+            animation: chaticonanimation-dot-middle_c_o 10000ms linear infinite normal forwards
+        }
+
+        @keyframes chaticonanimation-dot-middle_c_o {
+            0% {
+                opacity: 0
+            }
+            61% {
+                opacity: 0
+            }
+            62% {
+                opacity: 1
+            }
+            88% {
+                opacity: 1
+            }
+            89% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0
+            }
+        }
+
+        #chaticonanimation-dot-right {
+            animation: chaticonanimation-dot-right_c_o 10000ms linear infinite normal forwards
+        }
+
+        @keyframes chaticonanimation-dot-right_c_o {
+            0% {
+                opacity: 0
+            }
+            63% {
+                opacity: 0
+            }
+            64% {
+                opacity: 1
+            }
+            86% {
+                opacity: 1
+            }
+            87% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0
+            }
+        }
+    </style>
+    <defs>
+        <g id="chaticonanimation-background_block_0_layer0_0_fill">
+            <path id="chaticonanimation-path1" d="M52,26Q52,15.250000,44.400000,7.600000Q36.800000,0,26,0Q15.250000,0,7.600000,7.600000Q0,15.250000,0,26Q0,36.800000,7.600000,44.400000Q15.250000,52,26,52Q36.800000,52,44.400000,44.400000Q52,36.800000,52,26Z" fill="rgb(51,51,51)" stroke="none" stroke-width="1"></path>
+        </g>
+        <g id="chaticonanimation-chat_outline_0_layer0_0_fill">
+            <path id="chaticonanimation-path2" d="M29.700000,0.350000Q29.400000,0,28.950000,0L1.100000,0Q0.650000,0,0.350000,0.350000Q0,0.650000,0,1.150000L0,17.950000Q0,18.450000,0.350000,18.750000Q0.650000,19.050000,1.100000,19.050000L5,19.050000L6.400000,26.400000Q6.500000,27.100000,7.250000,27.300000L7.450000,27.300000Q8.150000,27.300000,8.400000,26.800000L13.550000,19.050000L28.950000,19.050000Q29.400000,19.050000,29.700000,18.750000Q30.050000,18.450000,30.050000,17.950000L30.050000,1.150000Q30.050000,0.650000,29.700000,0.350000M27.800000,2.250000L27.800000,16.850000L12.950000,16.850000Q12.350000,16.850000,12.050000,17.350000L8.050000,23.300000L7,17.750000Q7,17.400000,6.650000,17.100000Q6.350000,16.850000,5.950000,16.850000L2.250000,16.850000L2.250000,2.250000L27.800000,2.250000Z" fill="rgb(255,255,255)" stroke="none" stroke-width="1"></path>
+        </g>
+        <g id="chaticonanimation-layer2_0_fill">
+            <path id="chaticonanimation-path3" d="M18.200000,24.450000Q18.200000,25.150000,18.700000,25.600000Q19.150000,26.150000,19.900000,26.150000Q20.600000,26.150000,21.050000,25.600000Q21.550000,25.150000,21.550000,24.450000Q21.550000,23.700000,21.050000,23.250000Q20.600000,22.750000,19.900000,22.750000Q19.150000,22.750000,18.700000,23.250000Q18.200000,23.700000,18.200000,24.450000Z" fill="rgb(255,255,255)" stroke="none" stroke-width="1"></path>
+        </g>
+        <g id="chaticonanimation-layer1_0_fill">
+            <path id="chaticonanimation-path4" d="M24.350000,24.600000Q24.350000,25.300000,24.800000,25.750000Q25.300000,26.250000,26,26.250000Q26.700000,26.250000,27.200000,25.750000Q27.700000,25.300000,27.700000,24.600000Q27.700000,23.850000,27.200000,23.400000Q26.700000,22.900000,26,22.900000Q25.300000,22.900000,24.800000,23.400000Q24.350000,23.850000,24.350000,24.600000Z" fill="rgb(255,255,255)" stroke="none" stroke-width="1"></path>
+        </g>
+        <g id="chaticonanimation-layer0_0_fill">
+            <path id="chaticonanimation-path5" d="M30.500000,24.450000Q30.500000,25.150000,31,25.600000Q31.450000,26.150000,32.150000,26.150000Q32.850000,26.150000,33.350000,25.600000Q33.900000,25.150000,33.900000,24.450000Q33.900000,23.700000,33.350000,23.250000Q32.850000,22.750000,32.150000,22.750000Q31.450000,22.750000,31,23.250000Q30.500000,23.700000,30.500000,24.450000Z" fill="rgb(255,255,255)" stroke="none" stroke-width="1"></path>
+        </g>
+    <g id="chaticonanimation-background_block_0_layer0_0_fill">
+            <path id="chaticonanimation-path1" d="M52,26Q52,15.250000,44.400000,7.600000Q36.800000,0,26,0Q15.250000,0,7.600000,7.600000Q0,15.250000,0,26Q0,36.800000,7.600000,44.400000Q15.250000,52,26,52Q36.800000,52,44.400000,44.400000Q52,36.800000,52,26Z" fill="rgb(51,51,51)" stroke="none" stroke-width="1"></path>
+        </g><g id="chaticonanimation-chat_outline_0_layer0_0_fill">
+            <path id="chaticonanimation-path2" d="M29.700000,0.350000Q29.400000,0,28.950000,0L1.100000,0Q0.650000,0,0.350000,0.350000Q0,0.650000,0,1.150000L0,17.950000Q0,18.450000,0.350000,18.750000Q0.650000,19.050000,1.100000,19.050000L5,19.050000L6.400000,26.400000Q6.500000,27.100000,7.250000,27.300000L7.450000,27.300000Q8.150000,27.300000,8.400000,26.800000L13.550000,19.050000L28.950000,19.050000Q29.400000,19.050000,29.700000,18.750000Q30.050000,18.450000,30.050000,17.950000L30.050000,1.150000Q30.050000,0.650000,29.700000,0.350000M27.800000,2.250000L27.800000,16.850000L12.950000,16.850000Q12.350000,16.850000,12.050000,17.350000L8.050000,23.300000L7,17.750000Q7,17.400000,6.650000,17.100000Q6.350000,16.850000,5.950000,16.850000L2.250000,16.850000L2.250000,2.250000L27.800000,2.250000Z" fill="rgb(255,255,255)" stroke="none" stroke-width="1"></path>
+        </g><g id="chaticonanimation-layer2_0_fill">
+            <path id="chaticonanimation-path3" d="M18.200000,24.450000Q18.200000,25.150000,18.700000,25.600000Q19.150000,26.150000,19.900000,26.150000Q20.600000,26.150000,21.050000,25.600000Q21.550000,25.150000,21.550000,24.450000Q21.550000,23.700000,21.050000,23.250000Q20.600000,22.750000,19.900000,22.750000Q19.150000,22.750000,18.700000,23.250000Q18.200000,23.700000,18.200000,24.450000Z" fill="rgb(255,255,255)" stroke="none" stroke-width="1"></path>
+        </g><g id="chaticonanimation-layer1_0_fill">
+            <path id="chaticonanimation-path4" d="M24.350000,24.600000Q24.350000,25.300000,24.800000,25.750000Q25.300000,26.250000,26,26.250000Q26.700000,26.250000,27.200000,25.750000Q27.700000,25.300000,27.700000,24.600000Q27.700000,23.850000,27.200000,23.400000Q26.700000,22.900000,26,22.900000Q25.300000,22.900000,24.800000,23.400000Q24.350000,23.850000,24.350000,24.600000Z" fill="rgb(255,255,255)" stroke="none" stroke-width="1"></path>
+        </g><g id="chaticonanimation-layer0_0_fill">
+            <path id="chaticonanimation-path5" d="M30.500000,24.450000Q30.500000,25.150000,31,25.600000Q31.450000,26.150000,32.150000,26.150000Q32.850000,26.150000,33.350000,25.600000Q33.900000,25.150000,33.900000,24.450000Q33.900000,23.700000,33.350000,23.250000Q32.850000,22.750000,32.150000,22.750000Q31.450000,22.750000,31,23.250000Q30.500000,23.700000,30.500000,24.450000Z" fill="rgb(255,255,255)" stroke="none" stroke-width="1"></path>
+        </g></defs>
+    <g id="chaticonanimation-grey_circle" opacity="0">
+        <g id="chaticonanimation-g1">
+            <use id="chaticonanimation-use1" width="52" height="52" xlink:href="#chaticonanimation-background_block_0_layer0_0_fill" transform="matrix(1 0 0 1 0 0.25000000000000)" fill="rgb(0,0,0)" stroke="none" stroke-width="1"></use>
+        </g>
+    </g>
+    <g id="chaticonanimation-speech-bubble_ts" transform="translate(26.025001,42.099999) scale(0.498936,0.498936)">
+        <g id="chaticonanimation-speech-bubble" transform="translate(-15.025001,-27.299999)" opacity="0">
+            <g id="chaticonanimation-g2">
+                <use id="chaticonanimation-use2" width="30.049999" height="27.299999" xlink:href="#chaticonanimation-chat_outline_0_layer0_0_fill" fill="rgb(0,0,0)" stroke="none" stroke-width="1"></use>
+            </g>
+        </g>
+    </g>
+    <g id="chaticonanimation-dot-left" opacity="0">
+        <use id="chaticonanimation-use3" width="3.349998" height="3.400000" xlink:href="#chaticonanimation-layer2_0_fill" fill="rgb(0,0,0)" stroke="none" stroke-width="1"></use>
+    </g>
+    <g id="chaticonanimation-dot-middle" opacity="0">
+        <use id="chaticonanimation-use4" width="3.350000" height="3.350000" xlink:href="#chaticonanimation-layer1_0_fill" fill="rgb(0,0,0)" stroke="none" stroke-width="1"></use>
+    </g>
+    <g id="chaticonanimation-dot-right" opacity="0">
+        <use id="chaticonanimation-use5" width="3.400002" height="3.400000" xlink:href="#chaticonanimation-layer0_0_fill" fill="rgb(0,0,0)" stroke="none" stroke-width="1"></use>
+    </g>
+</svg>
